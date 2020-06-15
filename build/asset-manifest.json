@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/static/js/main.b00c0f10.chunk.js",
+    "main.js.map": "/static/js/main.b00c0f10.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ceaf4b5f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ceaf4b5f.js.map",
+    "static/js/2.b12358a8.chunk.js": "/static/js/2.b12358a8.chunk.js",
+    "static/js/2.b12358a8.chunk.js.map": "/static/js/2.b12358a8.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f8e5a9792cb643ffd194f21194d5b929.js": "/precache-manifest.f8e5a9792cb643ffd194f21194d5b929.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/2.b12358a8.chunk.js.LICENSE.txt": "/static/js/2.b12358a8.chunk.js.LICENSE.txt",
+    "static/media/About.svg": "/static/media/About.a6312b4a.svg",
+    "static/media/Small.svg": "/static/media/Small.ef86398f.svg",
+    "static/media/Tech.svg": "/static/media/Tech.0616c286.svg",
+    "static/media/ninja.png": "/static/media/ninja.1ea9374c.png",
+    "static/media/ntu.png": "/static/media/ntu.a349ed64.png",
+    "static/media/renal_logo.png": "/static/media/renal_logo.2831db87.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ceaf4b5f.js",
+    "static/js/2.b12358a8.chunk.js",
+    "static/js/main.b00c0f10.chunk.js"
+  ]
+}
