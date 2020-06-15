@@ -4,12 +4,18 @@
 /node_modules
 /.pnp
 .pnp.js
+*.json
+*.lock
 
 # testing
 /coverage
 
 # production
 /build
+/lib
+/public
+**/assets
+**/Logos
 
 # misc
 .DS_Store
