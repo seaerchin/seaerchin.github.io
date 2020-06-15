@@ -11,9 +11,9 @@ const makeHackerText = (isBold = false) => (text) => {
   );
 };
 
-const wrapInPaper = (element) => {
+const wrapInPaper = (element, options = {}) => {
   return (
-    <Paper style={{ background: 'rgb(25,25,25)', padding: '8px' }} elevation={3}>
+    <Paper style={{ ...options, background: 'rgb(25,25,25)', padding: '8px' }} elevation={3}>
       {element}
     </Paper>
   );
