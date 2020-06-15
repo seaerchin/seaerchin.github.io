@@ -6,6 +6,7 @@ import { create } from 'apisauce';
 import BaseCard from '../Card/index';
 
 // this will render and place all the cards nicely
+// TODO: order by date
 const CardGrids = () => {
   const [data, setData] = useState([]);
   const options = { year: 'numeric', month: 'long', day: 'numeric' };
@@ -14,6 +15,7 @@ const CardGrids = () => {
   useEffect(() => {
     async function fetchData() {
       const result = await api.get('/repos');
+      console.log(result.data);
       setData(result.data.filter((cur) => !cur.fork));
     }
 

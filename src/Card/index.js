@@ -51,15 +51,13 @@ const BaseCard = ({ name, url, description, language, date }) => {
             ])}
           </Grid>
         </CardContent>
-        <CardActions style={{ paddingLeft: '16px', paddingBottom: '16px' }}>
-          <Button
-            size="small"
-            variant="text"
-            style={{ padding: '0px', justifyContent: 'flex-start', minWidth: '0px' }}
-          >
-            <a href={url}>Learn More</a>
-          </Button>
-        </CardActions>
+        <a href={url}>
+          <img
+            src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+            alt=""
+            style={{ width: '64px', height: '64px', margin: '8px' }}
+          />
+        </a>
       </Box>
     </Card>
   );
