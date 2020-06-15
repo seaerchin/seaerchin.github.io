@@ -14,7 +14,7 @@ const LandingPage = ({ listItems = [] }) => {
   const formatted = (text) => {
     return (
       <Box maxWidth="30%">
-        <Typography className={classes.description} variant="subtitle">
+        <Typography className={classes.description} variant="subtitle" style={{ lineHeight: 'initial' }}>
           {text}
         </Typography>
       </Box>

@@ -6,6 +6,7 @@
 .pnp.js
 *.json
 *.lock
+src/theme.js
 
 # testing
 /coverage
